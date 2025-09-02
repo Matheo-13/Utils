@@ -19,7 +19,7 @@ longpath() {
 ```
 
 
-added to the end of .bashrc
+added to the end of /home/$user$/.bashrc
 
 ### Commands : 
 `shortpath` to shorten the path \
