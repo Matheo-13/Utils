@@ -35,5 +35,5 @@ alias RosJazzy='source /opt/ros/jazzy/setup.bash'
 
 ### Commands : 
 `shortpath` to shorten the path \
-`longpath` to make it long again
+`longpath` to make it long again \
 `Ros$Version$` to source the setup.bash for this version
