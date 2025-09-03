@@ -1,6 +1,7 @@
 # Commands terminal Ubuntu
 ## For shortening and un-shortening the path in terminal :
 
+Add to .bashrc :
 ```
 # START of custom commands
 
@@ -18,9 +19,21 @@ longpath() {
 # END of custom commands
 ```
 
+## For sourcing a specific ROS version :
+Add to .bashrc :
 
-added to the end of /home/$user$/.bashrc
+```
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+```
+
+Add to .bash_aliases : 
+```
+alias RosJazzy='source /opt/ros/jazzy/setup.bash'
+```
 
 ### Commands : 
 `shortpath` to shorten the path \
 `longpath` to make it long again
+`Ros$Version$` to source the setup.bash for this version
